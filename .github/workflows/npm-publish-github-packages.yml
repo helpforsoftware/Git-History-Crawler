@@ -12,12 +12,11 @@ jobs:
 
         steps:
             - name: Check out Git repository
-              uses: actions/checkout@v1
+              uses: actions/checkout@v3
 
             - name: Install Node.js, NPM and Yarn
-              uses: actions/setup-node@v4
-              with:
-                  node-version: 20.16.0
+              uses: actions/setup-node@v3
+      
 
             - name: Compile Electron App
               uses: x6Pnda/action-electron-compiler@v1.0.2
