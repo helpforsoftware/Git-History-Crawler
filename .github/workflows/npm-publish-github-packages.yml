@@ -19,7 +19,7 @@ jobs:
       
 
             - name: Compile Electron App
-              uses: helpforsoftware/action-electron-compiler-byforce@v1.1.1
+              uses: helpforsoftware/action-electron-compiler-byforce@v1.1.2
               with:
                   # GitHub token, automatically provided to the action
                   # (Optional)
