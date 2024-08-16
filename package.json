@@ -1,21 +1,22 @@
 {
   "name": "githistorycrawler",
-  "version": "1.1.11",
+  "version": "1.1.19",
   "private": true,
   "author": "intruderia",
   "description": "Git History Crawler",
   "build": {
     "appId": "com.githistorycrawler.int",
     "productName": "Git History Crawler",
-    "asar":true,
+    "asar": true,
     "extends": null,
-    "files":[
+    "files": [
       "build/**/*",
       "node_modules/**/*",
       "package.json"
     ],
-    "directories":{"buildResources":"assets"}
-
+    "directories": {
+      "buildResources": "assets"
+    }
   },
   "dependencies": {
     "@ant-design/icons": "^5.4.0",
@@ -44,6 +45,7 @@
     "react-diff-viewer": "^3.1.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
+    "react-script": "^2.0.5",
     "react-scripts": "5.0.1",
     "refactor": "^0.0.3",
     "refractor": "^2.8.0",
