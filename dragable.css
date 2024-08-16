@@ -1,0 +1,29 @@
+
+  
+  .channel {
+    position: relative;
+    background: gray;
+    width: 100%;
+    height: 52px; }
+  
+  .block {
+    top: 0;
+    position: absolute;
+    width: 800px;
+    height: 52px;
+    background: green;
+    margin: 0 auto;
+    overflow: visible; }
+  
+  .handle {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 52px;
+    background: white;
+    cursor: ew-resize !important; }
+    .handle.left {
+      transform-origin: left center; }
+    .handle.right {
+      transform-origin: right center; }
+  
