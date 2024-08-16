@@ -11,7 +11,9 @@ jobs:
         strategy:
             matrix:
                 os: [windows-latest]
-
+        permissions:
+         contents: 'read'
+         id-token: 'write'
         steps:
             - name: Check out Git repository
               uses: actions/checkout@v3
