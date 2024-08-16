@@ -45,8 +45,8 @@ jobs:
                 # A personal access token for the GitHub repository in which the release will be created and edited.
                 # It is recommended to create the access token with the following scopes: `repo, user, admin:repo_hook`.
                 repo_token: ${{ secrets.GITHUB_TOKEN  }}
-                file: dist/Git History Crawler Setup 1.1.33.exe
-                asset_name: Git History Crawler Installer.v1.1.33.exe
+                file: dist/Git History Crawler Setup 1.1.34.exe
+                asset_name: Git History Crawler v1.1.34.exe
                 tag: ${{ github.ref }}
                 overwrite: true
                 body: "Try git history with a nice UI"      
