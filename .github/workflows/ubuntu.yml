@@ -49,6 +49,6 @@ jobs:
                 asset_name: Git History Crawler-v1.1.35.AppImage
                 tag: ${{ github.ref }}
                 overwrite: true
-                body: Try Git History Crawler on Linux (Tested on Ubuntu)     
+                body: Try Git History Crawler on Multi-Platform
 
                
